@@ -1,0 +1,23 @@
+.ankit:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.form-inline{
+    display:flex;
+}
+.header{
+    box-shadow: 1px 0px 3px;
+}
+.logo{
+    margin-left:10px;
+}
+.carousel-div{
+    padding:12px;
+    box-shadow: 1px 0px 3px;;
+}
+/* .content{
+    color:white;
+} */
+.ankit2{
+    display:flex;
+}
