@@ -217,9 +217,12 @@ background: #fff;
     transition: .5s ease-in-out;
 }
 .service-box img{
-    width: 60px;
+    width: 150px;
     margin-top: 65px;
     margin-bottom: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .service-box h6{
     font-weight:bold;
@@ -235,6 +238,10 @@ background: #fff;
     margin-bottom: 35px;
     cursor: pointer;
 }
+.heightadjust{
+    width:180px !important;
+}
+
 /* .service-box:hover, .active-service{
     background: var(--primaryColor);
     border-radius: 30%;
@@ -312,10 +319,11 @@ background: #fff;
     
 }
 .carousel-item img{
-    width: 400px !important;
+    width: 300px !important;
     height: 350px;
     border-radius : 10px;
     box-shadow: 2px 6px 6px 2px black;
+margin-right:50px;
 }
 .abc img{
     border-radius: 50%;
