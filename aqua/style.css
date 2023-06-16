@@ -215,14 +215,36 @@ background: #fff;
     cursor: pointer;
     margin-bottom: 10px;
     transition: .5s ease-in-out;
+    max-height:600px;
+}
+.imagediv{
+    max-height:300px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagediv img{
+    height: 200px;
+}
+.contentdiv{
+    max-height : 300px !important;
+    max-width : 300px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-outline-success{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .service-box img{
     width: 150px;
     margin-top: 65px;
     margin-bottom: 45px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .service-box h6{
     font-weight:bold;
@@ -439,6 +461,9 @@ textarea{
     color: #fff;
     border-radius: 5px;
    
+}
+.row{
+--bs-gutter-x: 0rem !important;
 }
 
 
